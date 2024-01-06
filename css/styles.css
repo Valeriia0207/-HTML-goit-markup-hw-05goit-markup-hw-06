@@ -110,42 +110,63 @@ img {
 .mob-container {
   display: flex;
   flex-direction: column;
-  gap: 168px;
   align-items: flex-start;
   justify-content: space-between;
   margin-top: 72px;
-  margin-bottom: 48px;
 }
 .mob-nav {
   display: flex;
   align-items: center;
+  margin-bottom: 168px;
 }
 .mob-nav-list {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  color: #2E2F42;
+  color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.72px;
 }
-.header-nav-list-item-active{
-  color: #404BBF;
+.mob-nav-list-item {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+}
+.mob-nav-list-item-active {
+  color: #404bbf;
+}
+.mob-address {
+  margin-bottom: 48px;
 }
 .mob-address-list {
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+.mob-address-contacts-active {
   font-style: normal;
-  color: #4D5AE5;
+  color: #4d5ae5;
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
 }
-.mob-socials{
+.mob-address-contacts {
+  font-style: normal;
+  color: #434455;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.mob-socials {
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
 }
 .mob-socials-icons-list {
   display: flex;
